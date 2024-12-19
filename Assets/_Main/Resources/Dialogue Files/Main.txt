@@ -1,0 +1,7 @@
+playsong("space")
+CreateCharacter(Loki), CreateCharacter(Alexandria)
+SetLayerMedia(background Main -blend hurricane -spd 0.7 -i true)
+dfcvf
+
+
+ShowMap()

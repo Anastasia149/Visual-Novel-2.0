@@ -1,0 +1,87 @@
+Reminder of parameters
+
+	general
+		-spd, -speed
+		-i , -immediate
+		-f, -file
+		-e, -enqueue	- puts dialogue in queue (choices)
+  --------------------------------------------------------------------------------------
+	char
+		-s, -sprite
+		-l, -layer
+		-a, -animation
+		-st, -state		- if animation if active
+		-e, -enable
+  --------------------------------------------------------------------------------------
+	graphic panels
+		-p, -panel
+		-l, -layer
+		-m, -media
+		-spd, -speed
+		-i, -immediate
+		-b, -blend		- transition between backgrounds
+  --------------------------------------------------------------------------------------
+	audio
+	 -
+	|	-s, -sfx
+sfx	|	-v, -vol, -volume
+	|	-p, -pitch
+	|	-l, -loop
+	 -
+	 -
+	|	-c, -channel
+	|	-i, -immediate
+Mus	|	-sv, -startvolume
+	|	-s, -song
+	|	-a, -ambiance
+	 -
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Characters:
+	enter											- forces immediate entry of character
+	CreateCharacter(character)						- creates character in scene(not readily visible unless enabled immediately)
+	Move() / MoveCharacter (character -x# -y#)		- sets character position
+	Show()											- shows all characters
+	Hide()											- hides all characters
+	Show(character)									- sets character to appear
+	Hide(character)									- sets character to disappear
+	Sort(char1, char2)								- sorts characters in hierarchy
+	SetPriority(character)							- sets priority of character in hierarchy
+	Highlight()										- highlights all
+	UnHighlight()									- unhighlights all
+	Highlight(character)							- highlights specified character
+	UnHighlight(character)							- unhighlights specified character
+	SetColor(character -c color)					- adds color overlay to character
+	character.SetSprite(spritename)					- sets character sprite / expression
+	character.Animate(-a animation)					- animates character (hop / shiver)
+	character.Flip()								- flips character
+
+  --------------------------------------------------------------------------------------
+
+UI:
+	wait(#)											- waits for specified amount of time between lines
+	HideDb()										- hides dialogue box
+	ShowDb()										- shows dialogue box
+	HideUI()										- hides dialogue system (everything basically)
+	ShowUI()										- shows dialogue system (everything basically)
+	load(file -e true)								- loads new dialogue file (can be queued or called immediately)
+
+  --------------------------------------------------------------------------------------
+
+Audio:
+	playsfx(sfx)									- plays specific sfx - does not loop
+	stopsfx(sfx)									- stops sfx
+	playsong("song")								- plays specified song from files
+	stopsong("song")								- stops song
+	playambiance("song")							- plays over music (just for extra)
+	stopambiance("song")							- stops ambiance
+
+  --------------------------------------------------------------------------------------
+
+Graphic panels
+	SetLayerMedia(background ("background"))		- sets background of scene (change layers to overlay backgrounds)
+	ClearLayerMedia(background -b)				- remove background (can be faded out using blend)
+
+
+Visual Novel
+	SetPlayerName(<input>)						- changes the player's name to whatever the input is, or manually input a string

@@ -1,0 +1,78 @@
+CreateCharacter(Mako), CreateCharacter(Scylla)
+SetLayerMedia(background Subway -blend hurricane -spd 0.7 -i true)
+
+Narrator "You decide to head into the subways and explore for a bit"
+"There, {wa .8}you find an underground aquarium,{wa .8} bustling with life"
+"Many aquatic species seem to reside here, a majority hidden behind a glass."
+"It's...{wa .5} oddly peaceful, especially for a simple subway system."
+"Though, you've been to an aquarium before. {wa .7}It was nothing new."
+"You also find a random man on the stairs... {wa .9}hitting the jig... {wa .9}and yelling about global warming"
+". {wa 1} . {wa 1} ."
+"The fish seem a lot more interesting after that."
+
+MoveCharacter(Scylla 1 0 -i true), MoveCharacter(Mako 0 0 -i true) Show(Scylla), Show(Mako)
+Soon, you come across both Scylla and Mako, who...{wa .8} seem to be talking about violence?
+Huh.{wa 1} Never took Mako as the type.
+Though,{wa .5} he does look pretty uncomfortable...
+Regardless, you decide to approach them.
+Mako.Animate(-a Hop), MoveCharacter(Mako 0 1)
+Mako "uh...{wa .5} Scylla?"
+Highlight(Scylla)
+Scylla "Hm?"
+Mako "Why... why do you have a knife?"
+Scylla.Animate(-a Hop)
+Scylla "Hm? {wa .5} oh, {wa .3} this?"
+"It's a warning."
+Mako "..."
+"To who?"
+Scylla "Remember that guy who just bumped into you?"
+"Like"
+"Thirty minutes ago?"
+Mako "... {wa .3} yes?"
+Scylla "Him."
+Mako "Wh- {wa .2} why?!"
+"I'm fine! See? {wa .5}No harm done!"
+"Please put the knife away..."
+Scylla "Hah! No way! No one is gonna bump into my bestie and get away with it."
+"Guy didn't even say sorry!"
+"Can you believe that?"
+"Ridiculous"
+Mako "Scylla, he was blind!"
+"He had a walking cane!"
+Scylla "Excuses."
+Mako.Animate(-a Hop)
+Mako "No!"
+
+Narrator "..."
+"Well, this is quite the predicament"
+"Seems like Scylla is dead set on committing a felony"
+"... With a steak knife"
+"You're almost tempted to see how this will go, though looking back at Mako you notice how panicked he seems"
+"Maybe you should step in?"
+
+Choice "..."
+{
+    - "Yea! He deserves it! He should've been looking where he was going."
+    Mako "He was blind!"
+    Scylla "See?! Even they agree!"
+    "Besides, it's not like he apologized for any of it!"
+    "It's only fair if we bump him a bit"
+    "... off of the platform"
+    Mako "Scylla, no!"
+    Hide()
+    Narrator "Before you even realize it, Scylla is running off, making a beeline towards a little old man in a walker with mako following quickly"
+    "You feel a little guilty, but then again..."
+    "It was pretty rude."
+    
+
+    - "Maybe you should just talk to him instead of trying to jump a blind man?"
+    Mako "Y-yea! {wa .5} There's no need to attack some... poor old guy."
+    Scylla "..."
+    "That's... {wa .5}so..."
+    "Boring!"
+    "C'mon, seriously?! He was rude! The least he deserves is to get his cane kicked in!"
+    Mako "Scylla!"
+    Scylla "What?!"
+}
+
+ShowMap()

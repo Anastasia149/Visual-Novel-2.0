@@ -1,0 +1,15 @@
+playsong("space")
+CreateCharacter(Alexandria), CreateCharacter(Shein)
+SetLayerMedia(background Cafe -blend hurricane -spd 0.7 -i true)
+
+Narrator "You decide to stop by the cafe for a quick snack"
+Immediately when you walk in,{wa .5} you are bombarded with screams
+You look to your right to see a baguette terrorizing an old man
+To your left,{wa .5} a pie chucking cherries at a random child
+...
+Looks like Purin's food has gone off the rails again
+You sit there calmly as this all happens,{wa .5} casually sipping on a hot coffee
+... Tasty
+
+
+ShowMap()

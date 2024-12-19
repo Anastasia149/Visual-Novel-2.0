@@ -1,0 +1,10 @@
+SetlayerMedia(foreground "map" -b)
+Choice "Where would you like to go?"
+{
+	-Hero Dorms
+	Load(new)
+	-Library
+	-Cafe
+	-Subways
+	-Main St.
+}

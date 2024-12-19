@@ -1,0 +1,6 @@
+﻿Narrator "Hello!"
+Welcome to my little game :)
+"Unfortunately, it doesn't have much content to it {wa .9}(I have very poor time management skills)"
+But it's functional! And I hope the content that is provided is at least a little amusing
+Regardless, I hope you enjoy!
+ShowMap()

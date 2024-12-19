@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde1d2ae61cd6974487522174703a367, type: 3}
+  m_Name: Character Configuration Asset
+  m_EditorClassIdentifier: 
+  characters:
+  - name: <mainChar>
+    alias: mc
+    characterType: 0
+    nameColor: {r: 1, g: 0.6367924, b: 0.65436697, a: 1}
+    dialogueColor: {r: 1, g: 0.5990566, b: 0.6119903, a: 1}
+    nameFont: {fileID: 11400000, guid: d634cb84f2d73c94eb509e2fb6b7b3dc, type: 2}
+    dialogueFont: {fileID: 11400000, guid: d634cb84f2d73c94eb509e2fb6b7b3dc, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList: []
+  - name: "\u0421\u0430\u0440\u0430"
+    alias: a
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: Neutral
+        Value: {fileID: 21300000, guid: b2370aac22c1b8e43b7a5317a7d8a80e, type: 3}
+      - Key: Happy
+        Value: {fileID: 21300000, guid: fed4d79f16e7fa54fbfcbc18590e058e, type: 3}
+      - Key: Upset
+        Value: {fileID: 21300000, guid: 26939be7b8db9514382ba9e9f42e8ae9, type: 3}
+      - Key: Mad
+        Value: {fileID: 21300000, guid: a8fc4cc3b547fcb48906b96813ac9b15, type: 3}
+  - name: "\u0414\u0436\u043E\u0448"
+    alias: l
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: Neutral
+        Value: {fileID: 21300000, guid: c4f45bebb166e1c41bb62f97936a800f, type: 3}
+      - Key: Happy
+        Value: {fileID: 21300000, guid: 7018f9121a90d294d9c04c0707c54178, type: 3}
+      - Key: Mad
+        Value: {fileID: 21300000, guid: 7b828aecad7ef914d8db348dce7675b7, type: 3}
+  - name: "\u042D\u043B\u0438\u0437\u0430\u0431\u0435\u0442"
+    alias: s
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: Neutral
+        Value: {fileID: 21300000, guid: d3f16ef4e4137834ea36c4e6321de092, type: 3}
+      - Key: Mad
+        Value: {fileID: 21300000, guid: d3f16ef4e4137834ea36c4e6321de092, type: 3}
+  - name: "\u0421\u043A\u0430\u0440\u043B\u0435\u0442"
+    alias: m
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: Neutral
+        Value: {fileID: 21300000, guid: bee87c508c319e44a913ba52fea94ebe, type: 3}
+  - name: "\u0414\u0436\u0435\u043D\u0430"
+    alias: sc
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: Neutral
+        Value: {fileID: 21300000, guid: ce70b6ca310c6cb45bce25689d14bf01, type: 3}
+  - name: Teevee
+    alias: t
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 06a086c3a73f9ac4384911f2fc0190da, type: 2}
+    nameFontScale: 1
+    dialogueFontScale: 1
+    sprites:
+      _serializedList:
+      - Key: Neutral
+        Value: {fileID: 21300000, guid: 5c9e121c9bcc1d8409cfbb216ad66722, type: 3}
+      - Key: Upset
+        Value: {fileID: 21300000, guid: cb2e0c1e416e7d247a34565f8e3fe20a, type: 3}
